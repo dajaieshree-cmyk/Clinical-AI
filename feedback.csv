@@ -1,0 +1,19 @@
+﻿timestamp,document_name,question,retrieved_evidence,rating,correction
+2026-10-21T14:20:57,clean_sample_clinical_note.pdf,water intake is mentioned?,The patient has been drinking less water than usual.,Correct,
+2026-10-21T14:31:34,clean_sample_clinical_note.pdf,What change in water intake is mentioned?,The patient has been drinking less water than usual.,Incorrect,
+2026-10-21T16:27:09,clean_sample_clinical_note.pdf,what are the symptoms of headache?,Clinical note The patient reports a headache for two days.,Incorrect,
+2026-10-21T16:29:32,clean_sample_clinical_note.pdf,what are the symptoms mentioned?,,Incorrect,
+2026-10-21T16:34:33,clean_sample_clinical_note.pdf,What change in water intake is mentioned?,The patient has been drinking less water than usual.,Correct,
+2026-10-21T16:41:59,clean_sample_clinical_note.pdf,for how many days did the patient have headache?,Clinical note The patient reports a headache for two days. | The patient also reports nausea since this morning. | The patient reports feeling tired.,Correct,
+2026-10-21T16:53:33,clean_sample_clinical_note.pdf,What change in water intake is mentioned?,"The patient has been drinking less water
+than usual.",Correct,
+2026-10-21T18:59:56,clinical_note_2.txt,Does the patient have a dry cough?,The patient has a dry cough. | The patient denies shortness of breath. | The patient reports a sore throat for three days.,Correct,
+2026-10-21T21:04:06,clinical_note_2.txt,does the patient have headache?,The patient reports a headache for two days.,Correct,
+2026-10-21T21:26:56,clinical_note_2.txt,does the patient have headache?,The patient reports a headache for two days.,Correct,
+2026-10-21T23:25:50,clinical_note_2.txt,does the patient have headache?,The patient reports a headache for two days.,Correct,but provide with more accurate answers
+2026-10-22T01:57:09,Pasted text,Does he have diabetes?,Past history includes hypertension and type 2 diabetes.,Correct,
+2026-10-22T02:00:01,sample_clinical_report_for_testing.pdf,does the patient have cough?,"The patient reports a dry cough that began yesterday. | Positive: sore throat, headache, dry cough. | Fictional symptom summary for information-retrieval testing: sore throat, headache, and dry cough are reported.",Correct,
+2026-10-22T14:29:59,Pasted text,name of the patient,"Patient: Ravi Kumar, 45 M",Correct,
+2026-10-22T14:39:41,sample_clinical_report_for_testing.pdf,name of the patient,Patient | Sample Patient (fictional) | Clinician,Incorrect,
+2026-10-22T19:22:56,sample_clinical_report_for_testing.pdf,does the patient has any breathing issues?,,Incorrect,
+2026-10-23T08:53:41,sample_clinical_report_for_testing.pdf,name of the patient,,Correct,

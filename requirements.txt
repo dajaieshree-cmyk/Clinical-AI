@@ -1,0 +1,11 @@
+# Clinical NLP Assistant - dependencies
+# Tested with the versions in the comments.
+
+streamlit>=1.65.0      # 1.65.0
+pandas>=3.0.6          # 3.0.6
+scikit-learn>=1.9.1    # 1.9.1
+pypdf>=6.20.1          # 6.20.1
+numpy>=2.5.4           # 2.5.4
+nltk>=3.10.3           # 3.10.3
+sentence-transformers>=6.2.0  # 6.2.0 (optional: Embeddings retriever)
+torch>=2.14.1          # 2.14.1 (pulled in by sentence-transformers)
